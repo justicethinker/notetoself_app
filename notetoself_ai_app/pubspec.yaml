@@ -1,0 +1,31 @@
+name: notetoself_ai_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_generative_ai: ^0.4.0
+  flutter_dotenv: ^5.1.0
+  flutter_secure_storage: ^9.0.0
+  crypto: ^3.0.3
+
+  cupertino_icons: ^1.0.8
+  path_provider: ^2.0.14
+  permission_handler: ^12.0.1
+  flutter_sound: ^9.3.19
+  google_generative_ai: ^0.4.7
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
